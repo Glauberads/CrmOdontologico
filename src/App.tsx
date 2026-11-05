@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ShoppingBag, CheckCircle, Database, Server, Smartphone, Key, ExternalLink } from 'lucide-react';
+import { useState } from 'react';
+import { CheckCircle, ExternalLink } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'operacao' | 'banco' | 'deploy'>('operacao');
